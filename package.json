@@ -24,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,10 +49,12 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "gh-pages": "^4.0.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "author": "Phil",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "http://philophobic87.github.io/philopubincsite--temp"
 }
